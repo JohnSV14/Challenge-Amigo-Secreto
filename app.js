@@ -10,3 +10,11 @@ let listaAmigos = [];
 let limiteAmigos = 5;
 
 
+//Funcion para agregar amigo
+function agregarAmigo(){
+    alert("Entrando a la función agregar amigo");
+}
+
+function sortearAmigo(){
+    alert("Entrando a la función sortear amigo");
+}
