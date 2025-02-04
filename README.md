@@ -10,17 +10,17 @@
 * [Acceso al proyecto](#acceso-al-proyecto)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
 * [Personas contribuyentes](#personas-contribuyentes)
-* [Personas desarrolladoras del proyecto](#personas-desarrolladoras-del-proyecto)
-* [Licencia](#licencia)
-* [Conclusión](#conclusión)
+
+
 
 ---
 
 ## Introduccion
 <p align="center">
-   <img src="C:\Users\israe\Claro drive\Curso Oracle Alura\Lógica de Programación JavaScript\Challenge Amigo Secreto\challenge-amigo-secreto_esp-main\assets\friend-secret.png" alt="Portada">
+   <img src="assets/friend-secret.png" alt="Portada">
 </p>
-
+La creación del juego "Amigo Secreto" es la aplicación de conocimientos adquiridos en el curso de Programacioón con JavaScript.
+Lógica de Programación Sumergete en la programación con JavaScript y Lógica de Programación: Explorar funciones y listas del curso de Alura Latam Oracle del programa ONE Oracle Next Education.
 
 
 ---
@@ -34,13 +34,14 @@
 
 ## Descripción del proyecto
 
-Este proyecto es un reto de programación para desarrollar una aplicación que facilite la organización de un **Amigo Secreto**. Permite gestionar participantes, realizar sorteos automáticos y enviar mensajes anónimos.
+Este proyecto es un reto de programación para desarrollar una aplicación que ingrese nombres de amigos al sistema, despues aleatoriamente  se elija un nombre de los que se ingresaron.
+Se recalca el uso de funciones, listas basicas de JavaScript.
 
 ---
 
 ## Estado del proyecto
 
-🚀 **Proyecto en desarrollo**  
+🚀 **Proyecto Concluído con opciones de Mejora**  
 Actualmente estamos trabajando en la implementación de la interfaz de usuario y la lógica del sorteo.
 
 ---
@@ -50,16 +51,21 @@ Actualmente estamos trabajando en la implementación de la interfaz de usuario y
 ### Características principales:
 ✔ Registro de usuarios  
 ✔ Sorteo automático de amigos secretos  
-✔ Envío de mensajes anónimos  
-✔ Notificaciones por correo electrónico  
-
-### Demostración:
-
-Puedes ver una demostración en el siguiente enlace:  
-🔗 [Demo en YouTube](https://www.youtube.com)
+✔ Validación de Nombres Duplicados o nulos
 
 ---
+## Tecnologías Utilizadas
+🟦 Lenguaje: JavaScript, Python, HTML
+---
+## Personas Contribuyentes
+👤 Nombre del colaborador
+📧 Correo: johnyvisa2@gmail.com
+🔗 GitHub: [Perfil del colaborador](https://github.com/JohnSV14)
+<p align="center">
+   <img src="https://avatars.githubusercontent.com/u/179539907?s=400&u=c9a9da329cc4db7f7b66c57fee109eb01950ce3d&v=4">
+</p>
 
+---
 ## Acceso al proyecto
 
 Para acceder al código fuente, clona este repositorio:
