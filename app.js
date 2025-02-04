@@ -84,15 +84,5 @@ function condicionesIniciales(){
     asiganrTextoElemento('h2',`Digite el nombre de sus amigos`); 
 }
 
-function reiniciarJuego(){
-    // Limpiar la caja
-    limpiarCaja();
-    // Indicar mensaje de inicio, intervalo de numeros
-    condicionesIniciales();
-    document.querySelector('#reiniciar').setAttribute('disabled',true);
-
-}
-
-
 // LLamada a la función para ininiar el programa
 condicionesIniciales();
