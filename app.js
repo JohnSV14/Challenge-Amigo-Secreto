@@ -39,7 +39,7 @@ function actualizarListaAmigos(){
 
 function agregarAmigo(){
 
-    asiganrTextoElemento('h2','Ingrese un nuevo amigo');
+    asiganrTextoElemento('h2','Digite el nombre de sus amigos');
     if(listaAmigos.length === limiteAmigos){
         asiganrTextoElemento('h2','Ya se asignaron la cantdad de nombres necesarios, procede a sortear un amigo');
         console.log(listaAmigos);
@@ -47,7 +47,7 @@ function agregarAmigo(){
     }else{
         nombre = document.querySelector('#amigo').value;
         if(nombre == ""){
-            alert('Nombre no válido');
+            alert('Ingrese un nombre válido');
             limpiarCaja();
         }else{
             if(listaAmigos.includes(nombre)){
