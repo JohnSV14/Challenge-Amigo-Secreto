@@ -13,16 +13,22 @@ let nombre;
 
 
 function sortearAmigo(){
-    indiceNombreSorteado = Math.floor(Math.random() *limiteAmigos);
-    console.log(indiceNombreSorteado);
-    nombreSorteado = listaAmigos[indiceNombreSorteado];
 
-    if(listaAmigos.length == 0){
-        alert('Lista de amigos vacía, ingrese nombres de amigos')
+    if(listaAmigos.length == limiteAmigos){
+        indiceNombreSorteado = Math.floor(Math.random() *limiteAmigos);
+        console.log(indiceNombreSorteado);
+        nombreSorteado = listaAmigos[indiceNombreSorteado];
+
+        if(listaAmigos.length == 0){
+            alert('Lista de amigos vacía, ingrese nombres de amigos')
+        }else{
+            nom = document.getElementById("resultado");
+            nom.innerHTML = `Nombre Sorteado: ${nombreSorteado}`;
+        }
     }else{
-        nom = document.getElementById("resultado");
-        nom.innerHTML = `Nombre Sorteado: ${nombreSorteado}`;
+        asiganrTextoElemento('h2',`Aún no se asignan los nombres suficientes, faltan ${limiteAmigos - listaAmigos.length}`);
     }
+    
 }
 
 function actualizarListaAmigos(){
